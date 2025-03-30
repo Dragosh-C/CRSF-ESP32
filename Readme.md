@@ -37,11 +37,11 @@ The CRSF protocol is a bi-directional communication protocol used in the RC hobb
 For the flight controller receiver the Device Address is **0xC8**, and the Packet Length is **26 bytes**. The Payload Data contains the channel data, and the CRC is used to verify the integrity of the packet.
 
 
-### Library overview
+## Library overview
 
 The library can read data from **16 channels**, which are typically used for controlling various functions in RC devices. 
 
-## Channel Mapping
+### Channel Mapping
 
 | **Channel** | **Usage**                     | **Value Range** |
 |------------|--------------------------------|---------------|
